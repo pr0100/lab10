@@ -14,7 +14,6 @@ public:
 
 protected:
 	MatrixBase(unsigned int iSize);
-	int** matrix;
 
 private:
 	const unsigned int m_size;
