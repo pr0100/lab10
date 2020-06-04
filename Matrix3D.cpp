@@ -1,6 +1,6 @@
 #include "Matrix3D.h"
 
-Matrix3D::Matrix3D() : MatrixBase(3)
+Matrix3D::Matrix3D() : MatrixBase(matrixSize)
 {
 	for (int i = 0; i < matrixSize; i++)
 		for (int j = 0; j < matrixSize; j++)

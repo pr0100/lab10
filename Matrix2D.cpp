@@ -1,6 +1,6 @@
 #include "Matrix2D.h"
 
-Matrix2D::Matrix2D() : MatrixBase(2)
+Matrix2D::Matrix2D() : MatrixBase(matrixSize)
 {
 	for (int i = 0; i < matrixSize; i++)
 		for (int j = 0; j < matrixSize; j++)

@@ -8,6 +8,6 @@ public:
 	virtual int element(unsigned int i, unsigned int j) const;
 	virtual int& element(unsigned int i, unsigned int j);
 private:
-	int matrix[2][2];
 	static constexpr int matrixSize = 2;
+	int matrix[matrixSize][matrixSize];
 };
